@@ -1,0 +1,30 @@
+div {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	border-radius: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+
+/*Everything on the web is a box, content->padding->border->margin*/
+img{ /*content*/
+	width: 200px;
+	box-sizing: border-box; /* forces padding + border + content to be width*/
+	padding: 20px; /*between content and border*/
+	border: 10px groove orangered; /*between padding and margin */
+	margin: 40px; /*between padding  and other stuff*/
+}
+
+.dogone{
+	border: 10px dashed orangered;
+}
+
+.dogtwo{
+	border: 10px dotted orangered;
+}
+
+.dogthree{
+	border: 10px double orangered;
+}

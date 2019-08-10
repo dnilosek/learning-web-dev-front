@@ -1,0 +1,9 @@
+div {
+	width: 200px;
+	height: 200px;
+	background-image: url("../../000-assets/toby.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50px;
+	border: 20px groove red;
+}

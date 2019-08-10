@@ -1,0 +1,14 @@
+div {
+	width: 400px;
+	height: 200px;
+	border: 40px dashed red;
+	background-color: green;
+	margin: 20px auto; /*Auto sets margint to be equal for element, for box level this centers it on the page*/ 
+	/* margin: 10px 10px 10px 10px; T R B L */
+	/* margin: 10px 10px; TB RL */
+
+}
+
+.bb {
+	box-sizing:border-box;
+}
